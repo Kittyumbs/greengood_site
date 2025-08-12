@@ -77,7 +77,7 @@ if (promoSchedule){
 
 // Mobile menu toggle
 const mobileMenu = document.getElementById('mobile-menu');
-const navLinks = document.querySelector('.nav nav');
+const navLinks = document.getElementById('main-nav'); // Target by ID
 
 if (mobileMenu && navLinks) {
   mobileMenu.addEventListener('click', () => {

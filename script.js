@@ -74,3 +74,14 @@ if (promoSchedule){
     promoStatus.textContent = 'Đã lập lịch gửi lúc 09:00 hàng ngày (mô phỏng).';
   });
 }
+
+// Mobile menu toggle
+const mobileMenu = document.getElementById('mobile-menu');
+const navLinks = document.querySelector('.nav nav');
+
+if (mobileMenu && navLinks) {
+  mobileMenu.addEventListener('click', () => {
+    mobileMenu.classList.toggle('active');
+    navLinks.classList.toggle('active');
+  });
+}

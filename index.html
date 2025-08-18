@@ -70,6 +70,22 @@ section{padding:40px 0;border-bottom:1px solid var(--border)}
  #thang1, #thang2 {
   scroll-margin-top: 80px; /* chiều cao header của bạn */
 }
+ .agency {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ffb400;     /* màu vàng cam nổi bật */
+  color: #0d1b3d;          /* chữ xanh đậm */
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.agency:hover {
+  background: #ff9800;     /* đậm hơn khi hover */
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
 </style>
 </head>
 <body>
@@ -79,7 +95,7 @@ section{padding:40px 0;border-bottom:1px solid var(--border)}
       <div class="brand"><img src="https://nhanhoafoods.vn/wp-content/uploads/2025/07/fav-icon-150x150.png" alt="Nhân Hòa Foods Logo" width="50" height="50">
       <div class="brandname"><img src="https://nhanhoafoods.vn/wp-content/uploads/2025/07/Logo-Nhan-Hoa-Foods.png" alt="Nhân Hòa Foods" width="273" height="50"></div></div>
       <div style="display:flex;gap:8px">
-        <a class="agency" href="https://gmv.vn">Agency hỗ trợ</a>
+        <a class="agency" href="https://gmv.vn" target="_blank" rel="noopener noreferrer">Agency hỗ trợ</a>
         <a class="cta" href="#thang1">Tháng 1</a>
         <a class="cta" href="#thang2">Tháng 2</a>
       </div>
